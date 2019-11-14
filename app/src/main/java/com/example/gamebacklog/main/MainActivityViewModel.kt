@@ -20,4 +20,10 @@ class MainActivityViewModel(application: Application) : AndroidViewModel(applica
             gameRepository.deleteGame(game)
         }
     }
+
+    fun insertGame(game: Game) {
+        mainScope.launch {
+            gameRepository.insertGame(game)
+        }
+    }
 }

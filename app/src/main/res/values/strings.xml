@@ -6,4 +6,6 @@
     <string name="hint_platform">Platform</string>
     <string name="hint_date">Release Date</string>
     <string name="game_validation">Please fill in all fields</string>
+    <string name="delete_message">Deleted game: %s</string>
+    <string name="undo">UNDO</string>
 </resources>
